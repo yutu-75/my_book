@@ -22,6 +22,7 @@ page = requests.get(url=url_z,headers=headers)
 page.encoding = 'GBK'
 page_text = page.text
 print(page_text)
+print()
 
 
 
